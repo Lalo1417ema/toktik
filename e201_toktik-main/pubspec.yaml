@@ -1,0 +1,25 @@
+name: e201_toktik
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  animate_do: ^5.1.0
+  flutter:
+    sdk: flutter
+  intl: ^0.20.3
+  provider: ^6.1.5+1
+  video_player: ^2.14.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/videos/
